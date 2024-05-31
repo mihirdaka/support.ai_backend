@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "sql_query": {
+        "database_type": "mysql",
+        "sql": "SELECT VERSION() AS `version`"
+      },
+      "id": 1,
+      "thread_id": 0
+    },
+    {
+      "event": "return",
+      "thread_id": 0,
+      "id": 2,
+      "parent_id": 1,
+      "elapsed": 0.5014338339678943
+    }
+  ],
+  "version": "1.12",
+  "metadata": {
+    "client": {
+      "name": "appmap-node",
+      "version": "2.7.4",
+      "url": "https://github.com/getappmap/appmap-node"
+    },
+    "language": {
+      "name": "javascript",
+      "engine": "Node.js",
+      "version": "v18.17.1"
+    },
+    "app": "sparq_backend",
+    "recorder": {
+      "type": "process",
+      "name": "process"
+    },
+    "name": "2024-05-21T20:19:52.043Z"
+  },
+  "classMap": [
+    {
+      "type": "database",
+      "name": "Database",
+      "children": [
+        {
+          "type": "query",
+          "name": "SELECT VERSION() AS `version`"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "database",
+    "name": "Database",
+    "children": [
+      {
+        "type": "query",
+        "name": "SELECT VERSION() AS `version`"
+      }
+    ]
+  }
+]

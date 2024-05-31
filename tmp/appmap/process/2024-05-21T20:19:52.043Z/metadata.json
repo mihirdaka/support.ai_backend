@@ -1,0 +1,18 @@
+{
+  "client": {
+    "name": "appmap-node",
+    "version": "2.7.4",
+    "url": "https://github.com/getappmap/appmap-node"
+  },
+  "language": {
+    "name": "javascript",
+    "engine": "Node.js",
+    "version": "v18.17.1"
+  },
+  "app": "sparq_backend",
+  "recorder": {
+    "type": "process",
+    "name": "process"
+  },
+  "name": "2024-05-21T20:19:52.043Z"
+}
